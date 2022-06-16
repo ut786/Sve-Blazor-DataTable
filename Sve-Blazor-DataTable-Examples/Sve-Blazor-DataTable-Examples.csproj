@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5</TargetFramework>
     <RootNamespace>Sve.Blazor.DataTable.Examples</RootNamespace>
     <AssemblyName>Sve.Blazor.DataTable.Examples</AssemblyName>
     <Nullable>enable</Nullable>
