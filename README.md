@@ -23,18 +23,18 @@ This project is still under active development! Currently an alpha version is av
 
 
 ### Installation
-1. Install the [NuGet](https://www.nuget.org/packages/Sve.Blazor.DataTable/) package:
+1. Install the [NuGet](https://www.nuget.org/packages/TechFlurry.Sve.Blazor.DataTable/) package:
 
    ```
-   > dotnet add package Sve.Blazor.DataTable
+   > dotnet add package TechFlurry.Sve.Blazor.DataTable
    
    OR
    
-   PM> Install-Package Sve.Blazor.DataTable
+   PM> Install-Package TechFlurry.Sve.Blazor.DataTable
    ```
    Use the `--version` option to specify a specific version to install.
 
-   Or use the build in NuGet package manager of your favorite IDEA. Simply search for `Sve.Blazor.DataTable`, select a version and hit install.
+   Or use the build in NuGet package manager of your favorite IDEA. Simply search for `TechFlurry.Sve.Blazor.DataTable`, select a version and hit install.
 
 2. Import the components:
 
