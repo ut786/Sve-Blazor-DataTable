@@ -7,13 +7,13 @@
     <AssemblyName>Sve.Blazor.DataTable</AssemblyName>
     <Nullable>enable</Nullable>
     <LangVersion>8.0</LangVersion>
-    <Version>1.0.11-alpha</Version>
-    <Authors>Sven Matthys</Authors>
+    <Version>5.0.0-alpha</Version>
+    <Authors>Sven Matthys, Umair Tahir</Authors>
     <Product>SveBlazorDataTable</Product>
     <Description>Blazor DataTable component with support for client and server side paging, filtering and sorting</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/SveNord/Sve-Blazor-DataTable</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/SveNord/Sve-Blazor-DataTable</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ut786/Sve-Blazor-DataTable</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ut786/Sve-Blazor-DataTable</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>blazor, boostrap, boostrap4, grid, table, datatable, sorting, filtering, paging, virtualization, virtual, component</PackageTags>
     <PackageReleaseNotes>
@@ -21,7 +21,21 @@
       - Added support for conditional rendering of columns
       - Added support for more flexible sizing through css units
     </PackageReleaseNotes>
+    <SignAssembly>False</SignAssembly>
+    <Company>Techflurry, Sven Matthys</Company>
+    <Copyright>$(Company)</Copyright>
+    <PackageIcon>Techflurry logo with shadow.png</PackageIcon>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageId>TechFlurry.Sve.Blazor.DataTable</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 
   <ItemGroup>
