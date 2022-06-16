@@ -28,6 +28,7 @@
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <PackageId>TechFlurry.Sve.Blazor.DataTable</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
@@ -45,6 +46,14 @@
     <PackageReference Include="Sve.Blazor.Core" Version="1.0.15-alpha" />
     <PackageReference Include="Sve.Blazor.Pagination" Version="1.0.15-alpha" />
     <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.18" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="Techflurry logo with shadow.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
